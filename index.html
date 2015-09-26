@@ -66,7 +66,25 @@ background-position: center !important;">
         </div>
         <p class="ck_errorArea"></p>
         
-        <form method="post" class="af-form-wrapper signup-form" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl"  >
+        <!--  Form starts here  -->
+        <!--
+        <form id="ck_subscribe_form" class="signup-form" action="https://app.convertkit.com/landing_pages/913/subscribe" data-remote="true">
+          <input type="hidden" name="id" value="913" id="landing_page_id"></input>
+            <div class="col-xs-12 col-sm-4">
+              <input name="first_name" id="ck_firstNameField" required type="textbox" placeholder="Enter first name">
+            </div>
+
+            <div class="col-xs-12 col-sm-4">
+              <input name="email" id="ck_emailField" required type="textbox" placeholder="Enter your e-mail">
+            </div>
+
+            <div class="col-xs-12 col-sm-4">
+              <input class="btn-primary btn-hg" type="submit" id='ck_subscribe_button' value="{{site.data.homepage.signup.button}}">
+            </div>
+        </form>
+        -->
+        
+        <form method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl"  >
 <div style="display: none;">
 <input type="hidden" name="meta_web_form_id" value="690770667" />
 <input type="hidden" name="meta_split_id" value="" />
@@ -82,14 +100,14 @@ background-position: center !important;">
 <div id="af-form-690770667" class="af-form"><div id="af-header-690770667" class="af-header"><div class="bodyText"><p style="text-align: center;">Top 10 "Must-have" tools for web development&nbsp;</p></div></div>
 <div id="af-body-690770667"  class="af-body af-standards">
 <div class="af-element">
-<label class="previewLabel" for="awf_field-73077178">Name hej: </label>
+<label class="previewLabel" for="awf_field-73077178">Name: </label>
 <div class="af-textWrap">
-<input id="awf_field-73077178" type="textbox" name="name" class="text" value=""  onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " tabindex="500" />
+<input id="awf_field-73077178" type="text" name="name" class="text" value=""  onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " tabindex="500" />
 </div>
 <div class="af-clear"></div></div>
 <div class="af-element">
 <label class="previewLabel" for="awf_field-73077179">Email: </label>
-<div class="af-textWrap"><input class="text" id="awf_field-73077179" type="textbox" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " />
+<div class="af-textWrap"><input class="text" id="awf_field-73077179" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " />
 </div><div class="af-clear"></div>
 </div>
 <div class="af-element buttonContainer">
@@ -123,44 +141,8 @@ background-position: center !important;">
     })();
     -->
 </script>
-        
-        
-        
- <!--  Form starts here  -->
- <!--
-        <form id="ck_subscribe_form" class="signup-form" action="https://www.aweber.com/scripts/addlead.pl" data-remote="true">
-          <input type="hidden" name="id" value="913" id="landing_page_id"></input>
-            <div class="col-xs-12 col-sm-4">
-              <input name="first_name" id="ck_firstNameField" required type="textbox" placeholder="Enter first name">
-            </div>
 
-            <div class="col-xs-12 col-sm-4">
-              <input name="email" id="ck_emailField" required type="textbox" placeholder="Enter your e-mail">
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-              <input class="btn-primary btn-hg" type="submit" id='ck_subscribe_button' value="{{site.data.homepage.signup.button}}">
-            </div>
-        </form>
-
--->
-        <!--  Form starts here  -->
-        <!--
-        <form id="ck_subscribe_form" class="signup-form" action="https://app.convertkit.com/landing_pages/913/subscribe" data-remote="true">
-          <input type="hidden" name="id" value="913" id="landing_page_id"></input>
-            <div class="col-xs-12 col-sm-4">
-              <input name="first_name" id="ck_firstNameField" required type="textbox" placeholder="Enter first name">
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-              <input name="email" id="ck_emailField" required type="textbox" placeholder="Enter your e-mail">
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-              <input class="btn-primary btn-hg" type="submit" id='ck_subscribe_button' value="{{site.data.homepage.signup.button}}">
-            </div>
-        </form>
-        -->
+<!-- /AWeber Web Form Generator 3.0.1 -->
       </div>
     </div>
   </div>
