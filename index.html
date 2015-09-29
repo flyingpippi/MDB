@@ -315,6 +315,22 @@ background-position: center !important;">
 </div>
 -->
 
+<!-- FAQ -->
+<div class="faq-row description-row" id="signup_row">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1">
+        <h2 class="section-title">{{site.data.homepage.faq.title}}</h2>
+        {% for question in site.data.homepage.faq.qa %}
+            <div class="faq-question">{{question.question}}</div>
+            <div class="faq-answer">{{question.answer}}</div>
+        {% endfor %}
+        <br><br>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Sign Up To Get Notified -->
 <div class="signup-row description-row" id="signup_row">
@@ -344,22 +360,6 @@ background-position: center !important;">
         </form>
 
       </div>
-  </div>
-</div>
-
-<!-- FAQ -->
-<div class="faq-row description-row" id="signup_row">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1">
-        <h2 class="section-title">{{site.data.homepage.faq.title}}</h2>
-        {% for question in site.data.homepage.faq.qa %}
-            <div class="faq-question">{{question.question}}</div>
-            <div class="faq-answer">{{question.answer}}</div>
-        {% endfor %}
-        <br><br>
-      </div>
-    </div>
   </div>
 </div>
 
