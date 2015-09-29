@@ -1,10 +1,10 @@
 hero:
   image: "images/million-dollar-blog-fedora3.jpg"
   heading: "Million Dollar Blog"
-  subtitle: "Grow & Profit your blog or online business"
+  subtitle: "Boost, Monetize & Profit your blog or online business"
 
 testimonial:
-  quote: "After making $1M reaching over 100,000 students with our online courses since April this year, we decided to partner with the online course hosting tool <a href='http://usefedora.com/?src=mdi-quote' target='_blank'>Fedora</a>, to develop a comprehensive course to how anyone can start from ground zero, which is where we began, to profit from their own online course."
+  quote: "After being an online entrepreneur for the past 10 years + a full-stack web developer I decided to start <a href='http://onlineentreprenista.com/' target='_blank'>Online Entreprenista</a> and create a course to help other passionate bloggers and entrepreneurs succeed online."
   person: "<strong>Karolina Kornell</strong>, <em>Founder of OnlineEntreprenista.com</a></em>"
   image: "images/about.jpg"
 
