@@ -41,7 +41,7 @@ learn:
     - number: "2"
       icon: "https://s3-us-west-2.amazonaws.com/static-css-assets/icons/learn-icons/research.png"
       title: "Daily schedule"
-      description: "A daily schedule to follow so you know exactly what to do every day"
+      description: "A daily schedule to follow so you know exactly what to do every day to grow your audience"
     - number: "3"
       icon: "https://s3-us-west-2.amazonaws.com/static-css-assets/icons/learn-icons/selling.png"
       title: "Monetize"
