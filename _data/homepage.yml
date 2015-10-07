@@ -1,7 +1,7 @@
 hero:
   image: "images/million-dollar-blog-landing.jpg"
   heading: "Grow, Monetize & Profit your blog"
-  subtitle: "Step-by-step course to succeed with your blog or online business"
+  subtitle: "A step-by-step course on how to succeed with your blog or online business"
 
 testimonial:
   quote: "After being an online entrepreneur for the past 10 years + a full-stack web developer I decided to create a course to help other passionate bloggers, entrepreneurs and freelancers build a successful online business."
@@ -149,7 +149,7 @@ faq:
     - question: "Can I take a break?"
       answer: "Absolutely, since it's a self-paced course you can pause and pick up whenever you want."
     - question: "How much does this course cost?"
-      answer: "For a limited time the beta-launch price is $99. You can pre-order your seat <a href'http://academy.onlineentreprenista.com/' target='_blank'>here.</a>"
+      answer: "For a limited time the beta-launch price is $99. You can pre-order it <a href'http://academy.onlineentreprenista.com/' target='_blank'>here!</a>"
     - question: "How long do I have access to the course?"
       answer: "How does lifetime access sound? After enrolling, you have unlimited access to this course for as long as you like - across any and all devices you own. Even as the course expands you'll still have access."
     - question: "I’m starting from scratch, I don’t have a website yet. Can I take the course?"
