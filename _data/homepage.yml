@@ -37,7 +37,7 @@ learn:
     - number: "1"
       icon: "https://s3-us-west-2.amazonaws.com/static-css-assets/icons/learn-icons/idea.png"
       title: "Define your niche"
-      description: "How to find your killer niche or define your style on your blog"
+      description: "How to find your killer niche or define your blog style"
     - number: "2"
       icon: "https://s3-us-west-2.amazonaws.com/static-css-assets/icons/learn-icons/research.png"
       title: "Daily schedule"
